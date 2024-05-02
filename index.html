@@ -24,66 +24,14 @@
             border: 6px solid rgba(174, 110, 84, 1); /* Adjust color to match your design */
             border-top: 6px solid transparent;
             border-radius: 50%;
-            width: 10vw; /* Adjust size as needed */
-            height: 10vw; /* Adjust size as needed */
+            width: 60px;
+            height: 60px;
             animation: spin 1s linear infinite;
         }
         
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
-        }
-
-        /* Additional Styles */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            background-color: #c2b7ae;
-        }
-
-        .container {
-            position: relative;
-            text-align: center;
-            max-width: 100%; /* Ensure container adjusts to viewport */
-            padding: 0 20px; /* Add some padding for better readability */
-        }
-
-        .wedding-card {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Additional button styles */
-        #deedarBtn {
-            position: absolute;
-            bottom: 5%; /* Adjust this to your desired position */
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 1.5vw 3vw; /* Adjust padding as needed */
-            font-size: 3vw; /* Adjust font size as needed */
-            border: none;
-            background-color: rgba(0, 0, 0, 0);
-            color: rgba(174, 110, 84, 1);
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        #deedarBtn a {
-            color: rgba(174, 110, 84, 1);
-            text-decoration: underline;
-        }
-
-        /* Media Queries */
-        @media screen and (max-width: 768px) {
-            .wedding-card {
-                max-width: 80%;
-            }
-
-            #deedarBtn {
-                font-size: 4vw;
-                padding: 2vw 4vw;
-            }
         }
     </style>
 </head>
